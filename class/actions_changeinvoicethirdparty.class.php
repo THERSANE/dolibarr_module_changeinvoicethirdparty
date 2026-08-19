@@ -225,7 +225,7 @@ class Actionschangeinvoicethirdparty
 
 				$html = dolGetButtonAction(
 					$langs->trans('SetLinkToAnotherThirdParty'),
-					intval(DOL_VERSION) < 20 ? '' : '<i class="fa fa-people-arrows"></i>',
+					'<i class="fa fa-people-arrows"></i>',
 					'default',
 					$actionUrl  ,
 					'changeinvoicethirdpartybtn',
